@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# YOLO training outputs
+runs/
+DEMO_RESULTS/
+review2_output/
+
+# Datasets
+datasets/
+dataset/
+
+# Model weights
+*.pt
+
+# VS Code
+.vscode/
+
+# Environment/secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
