@@ -36,10 +36,11 @@ def assess_risk(detected_class):
 
 
 # Test
-test_detection = "no_helmet"
+if __name__ == "__main__":
+    test_detection = "no_helmet"
 
-result = assess_risk(test_detection)
+    result = assess_risk(test_detection)
 
-print("Detected Issue :", test_detection)
-print("Severity       :", result["severity"])
-print("Recommendation :", result["recommendation"])
+    print("Detected Issue :", test_detection)
+    print("Severity       :", result["severity"])
+    print("Recommendation :", result["recommendation"])
